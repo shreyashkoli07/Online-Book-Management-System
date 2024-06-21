@@ -1,0 +1,41 @@
+
+ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+li{
+
+    padding: 10px;
+    width: 250px;
+    max-width: 250px;
+    max-height: 480px;
+    list-style: none;
+}
+
+.card{
+    padding: 1rem;
+    width: 250px;
+    height: 100%;
+    box-shadow: 5px 5px 10px #ccc;
+    align-items: center;
+    margin-top: .5rem;
+    display: inline-block;
+}
+
+.card > img{
+    height: 170px;
+    width: 100%;
+}
+
+.card > p{
+    font-size: .8rem;
+}
+
+.card > h3{
+    margin: 0;
+}
